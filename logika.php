@@ -31,6 +31,7 @@ function average_kills($person_a, $person_b)
 
     return $average_kills;
 }
+// note: From Soal
 // note: Jika Anda memberikan data yang tidak valid (yaitu usia negatif, orang yang lahir sebelum penjahat mengambil alih) program harus mengembalikan -1. Jadi, jika seorang penduduk yang dapat membuat program untuk memecahkan masalah, penjahat itu akan pergi, dan pembunuhan itu akan dihentikan.
 $person_a = array('death_age' => 10, 'death_year' => 12);
 $person_b = array('death_age' => 13, 'death_year' => 17);
